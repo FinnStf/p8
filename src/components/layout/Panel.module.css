@@ -1,0 +1,27 @@
+.panel-wrapper{
+    width: 100%;
+    height: calc(100vh - 4.5rem);
+    min-height: 30rem;
+    z-index:-2;
+    overflow: hidden;
+    position: relative;
+}
+.background-black{
+    background-color: #000000;
+}
+.background-white{
+    background-color: #FFFFFF;
+}
+.background-grey{
+    background-color: #EAEAEA;
+}
+@media only screen and (min-width: 800px) and (max-width: 1350px) {
+    .panel-wrapper{
+        height: calc(80vh - 7rem);
+    }
+}
+@media only screen and (min-width: 1350px) {
+    .panel-wrapper{
+        height: calc(100vh - 7rem);
+    }
+}

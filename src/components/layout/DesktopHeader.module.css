@@ -1,0 +1,112 @@
+.navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-wrapper div {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.navigation.actions {
+    justify-content: end;
+}
+
+@media only screen and (min-width: 1630px) {
+    .navigation {
+        padding-inline-start: 2rem;
+        margin-right: 2rem;
+    }
+
+    .logo-wrapper {
+        margin-left: 4rem !important;
+    }
+
+    .navigation a {
+        padding: 0rem 1rem;
+    }
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 1630px) {
+    .navigation {
+        padding-inline-start: 1rem;
+        margin-right: 0rem;
+    }
+
+    .logo-wrapper {
+        margin-left: 2rem !important;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .navigation-wrapper {
+        display: block;
+    }
+
+    .navigation {
+        margin-right: 1rem;
+    }
+
+    .navigation-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navigation.actions {
+        display: none;
+    }
+}
+
+.logo-wrapper {
+    margin: 1.25rem;
+}
+
+.logo-wrapper svg {
+    display: block;
+    width: auto;
+    height: 2.5rem;
+}
+
+.navigation a {
+    margin: 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    display: inline-flex;
+    line-height: 1.75rem;
+}
+
+.navigation svg{
+    height: 2rem;
+    align-self: center;
+    margin-right: 1rem;
+}
+
+.hover-underline-effect{
+    position: relative;
+}
+.hover-underline-effect::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: -8px;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-effect:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

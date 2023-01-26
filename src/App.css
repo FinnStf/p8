@@ -1,0 +1,90 @@
+main {
+    margin-top: 4.5rem;
+}
+
+h1, h2 {
+    font-size: 2.5rem;
+    letter-spacing: 6px;
+    margin: 1rem 0rem 1rem 0rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.75rem;
+    line-height: 2rem;
+    letter-spacing: 4px;
+    margin: 1rem 0rem 1rem 0rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h5 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+    margin: .5rem 0rem .5rem 0rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+button{
+    padding: 1rem 2rem 1rem 2rem;
+    font-size:  1.75rem!important;
+    margin: 1.5rem 0rem;
+    font-weight: bold;
+}
+
+.text-color-blue {
+    color: #00AABD;
+}
+
+@media only screen and (min-width: 800px) {
+    main {
+        margin-top: 7rem;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1350px) {
+
+    h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+        letter-spacing: 6px;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+        letter-spacing: 6px;
+    }
+    h4 {
+        font-size: 1.75rem;
+        line-height: 2rem;
+        letter-spacing: 4px;
+        margin: 1rem 0rem 1rem 0rem;
+    }
+    p{
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (min-width: 1350px) {
+    h1,h2 {
+        font-size: 5rem;
+        line-height: 6rem;
+        letter-spacing: .5rem;
+        margin: 1.5rem 0rem 1.5rem 0rem;
+    }
+    h4 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        letter-spacing: 4px;
+        margin: 1rem 0rem 1rem 0rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    button{
+        padding: 1rem 1.25rem;
+        font-size:  1.5rem;
+    }
+}

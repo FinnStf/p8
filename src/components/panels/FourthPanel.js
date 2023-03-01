@@ -11,7 +11,7 @@ import PublicRelationsIcon from '../icons/PublicRelationsIcon'
 
 export default function FourthPanel() {
     return (
-        <Panel className='background-white'>
+        <Panel className='background-white centered'>
             <div className={style['content-wrapper']}>
                 <h5 className='text-color-blue'>Leistungen</h5>
                 <h4>Die volle Bandbreite</h4>

@@ -4,7 +4,7 @@ import ClipBox from '../layout/ClipBox';
 
 export default function SecondPanel() {
     return (
-        <Panel className='background-white'>
+        <Panel className='background-white centered'>
             <div className={style['content-wrapper']}>
 
                 <ClipBox className='background-box' title='(F)acts &amp;'>

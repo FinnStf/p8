@@ -1,15 +1,23 @@
 .background-image {
-    width: 110%;
+    position: absolute;
+    top: 0;
     height: 100%;
+    width: 100%;
     opacity: 0.99;
     object-fit: cover;
 }
-.content-wrapper{
-    float: left;
-    position: absolute;
-    left: 15%;
-    top: 10%;
-    margin-right: 2rem;
-    padding: 5px;
+
+.content-wrapper {
+    position: relative;
+    left: 5%;
+    top: 5rem;
+    padding-bottom: 5rem;
     color: #FFFFFF;
+    margin: 2rem;
+}
+
+@media screen and (min-width:800px){
+    .content-wrapper {
+        left: 15%;
+    }
 }

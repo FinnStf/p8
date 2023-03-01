@@ -1,10 +1,16 @@
 .panel-wrapper{
     width: 100%;
-    height: calc(100vh - 4.5rem);
-    min-height: 30rem;
+    height: 100%;
+    min-height: calc(100vh - 4.5rem);
     z-index:-2;
     overflow: hidden;
     position: relative;
+}
+.centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .background-black{
     background-color: #000000;
@@ -15,13 +21,8 @@
 .background-grey{
     background-color: #EAEAEA;
 }
-@media only screen and (min-width: 800px) and (max-width: 1350px) {
+@media screen and (min-width:800px){
     .panel-wrapper{
-        height: calc(80vh - 7rem);
-    }
-}
-@media only screen and (min-width: 1350px) {
-    .panel-wrapper{
-        height: calc(100vh - 7rem);
-    }
+        min-height: calc(100vh - 7rem);
+      }
 }

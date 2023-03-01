@@ -1,14 +1,11 @@
 .content-wrapper {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 50%;
+    padding: 2rem;
     text-align: center;
     background-color: #FFFFFF;
-    width: 90%;
 }
 
 .button-wrapper {
@@ -19,12 +16,4 @@
 
 .button-wrapper>button {
     width: 70%;
-}
-
-@media only screen and (min-width:800px) {
-    .content-wrapper {
-        padding: 3rem 5rem;
-        width: auto;
-    }
-
 }

@@ -5,7 +5,7 @@ import Button from "../ui/Button";
 
 export default function ThirdPanel() {
     return (
-        <Panel className='background-grey'>
+        <Panel className='background-grey centered'>
             <div className={style['content-wrapper']}>
                 <h2>Headline Lorem Ipsum</h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
